@@ -1,0 +1,649 @@
+body{
+    margin: 0;
+}
+
+.main{
+    height: 700px;
+    width: 100%;
+    background-image: url("./images/PortlandOR.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logoCont{
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.sec1{
+    font-size: 60px;
+    font-family: 'Archivo Black', sans-serif;
+    width: 400px;
+}
+
+.sec2{
+    width: 500px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 500px 500px;
+    border-color: transparent transparent #1293b3 transparent;
+    position: absolute;
+}
+
+.sec2Cont{
+    z-index: 1;
+}
+
+
+
+.aboutCont{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.map{
+    background-color: palevioletred;
+    width: 400px;
+    height: 400px;
+    background-image: url("./images/44DC0E24-4E52-484E-BEC9-F6D9B023EBCF.png");
+}
+
+#section1{
+    background-image: url("./images/downtown-sunset-portland-oregon-PORTLANDOREGON1018.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+}
+
+.activityCont{
+    height: 600px;
+    width: 100%;
+}
+
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#secP{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 90px;
+    color: white;
+}
+
+.actLinks{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 350px;
+    margin: 20px auto 0;
+    font-family: 'Nunito', sans-serif;
+    z-index: 1;
+    position: relative;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 400px;
+    margin: 40px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 400px;
+    width: 265px;
+    margin-right: 5px;
+    transition: .3s ease-in-out;
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+
+.card:hover{
+    background-color: rgba(0,0,0,0.5);
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  transform: scale(0.95);
+}
+
+#beer{
+    background-image: url("./images/beers.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#barista{
+    background-image: url("./images/barista.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foodtruck{
+    background-image: url("./images/foodtruck.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#donuts{
+    background-image: url("./images/donuts.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.activityText{
+    padding-top: 90px;
+    width: 500px;
+    height: 500px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+#exploreBtn{
+    width: 170px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: red;
+    border: none;
+    outline: none;
+}
+
+.navbar{
+    width: 100%;
+    height: 110px;
+    background-color: #212121;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    height: 110px;
+    width: 400px;
+    background-image: url("./images/log.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: #5F6E7A;
+    align-items: center;
+    justify-content: center;
+    top: 110px;
+    margin-bottom: 50px;
+}
+.banner span{
+    font-size: 25px;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#specialRed{
+    color: red;
+    font-style: italic;
+}
+
+
+.choices{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Nunito', sans-serif;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.choices a{
+    text-decoration: none;
+    color: #212121
+}
+
+.rowCont{
+    height: 1700px;
+    width: 100%;
+    background-image: url("./images/qbkls.png");
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.photoBody{
+    background-color: white;
+    height: 380px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 8px #888888;
+    transform-style: preserve-3d;
+    transition: 0.5s ease-out;
+    font-family: 'Nunito', sans-serif;
+}
+
+.photoBody:hover{
+  transform: translateY(-10px)
+}
+
+.cardImg{
+    margin-top: 20px;
+    width: 280px;
+    height: 280px;
+}
+
+#pips{
+    background-image: url("./images/pips.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#fried{
+    background-image: url("./images/friedegg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#scholls{
+    background-image: url("./images/scholls.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pok{
+    background-image: url("./images/Pok_Pok_Wing_Facebook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#voodo{
+    background-image: url("./images/donuts.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#lardo{
+    background-image: url("./images/x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#killer{
+    background-image: url("./images/killer.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pine{
+    background-image: url("./images/pine-state-biscuits-9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pods{
+    background-image: url("./images/pods.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#falls{
+    background-image: url("./images/falls.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tunel{
+    background-image: url("./images/tunnel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#japanese{
+    background-image: url("./images/japanese-garden-koi-pond1-1200x750.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pittock{
+    background-image: url("./images/pittock.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#haystack{
+    background-image: url("./images/haystack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bridge{
+    background-image: url("./images/bridge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#casestudy{
+    background-image: url("./images/casestudy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pageBanner{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#pipbanner{
+    background-image: url("./images/pips.jpg");
+}
+
+#eggBanner{
+    background-image: url("./images/eggbanner.jpeg");
+}
+
+#schollBanner{
+    background-image: url("./images/schollsbanner.png");
+}
+
+#pokBanner{
+    background-image: url("./images/pokBanner.jpg");
+}
+
+#voodoBanner{
+    background-image: url("./images/voodoobanner.png");
+}
+
+#lardoBanner{
+    background-image: url("./images/lardobanner.jpg");
+}
+
+#killerBanner{
+    background-image: url("./images/killerbanner.jpg");
+}
+
+#pineBanner{
+    background-image: url("./images/pinebanner.jpg");
+}
+
+#podsBanner{
+    background-image: url("./images/podsbanner.jpg");
+}
+
+#fallsBanner{
+    background-image: url("./images/fallsbanner.jpg");
+}
+
+#shanghaiBanner{
+    background-image: url("./images/shanghaibanner.png");
+}
+
+#gardensBanner{
+    background-image: url("./images/japanesebanner.jpg");
+}
+
+#pittockBanner{
+    background-image: url("./images/pittockbanner.jpg");
+}
+
+#haystackBanner{
+    background-image: url("./images/haystackbanner.jpg");
+}
+
+#stjohnBanner{
+    background-image: url("./images/StJohnsBridgebanner.jpg");
+}
+
+#caseBanner{
+    background-image: url("./images/casebanner.jpg");
+}
+
+.about{
+    width: 1400px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.circle{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: thistle;
+}
+
+.summary{
+    width: 600px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    height: 170px;
+    margin-left: 30px;
+}
+
+#one{
+    background-image: url("./images/pipbuilding.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#two{
+    background-image: url("./images/Fried+Egg+I\'m+in+Love+2+\(1+of+7\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#three{
+    background-image: url("./images/schollsbuilding.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#four{
+    background-image: url("./images/pokpokbuilding.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#five{
+    background-image: url("./images/voodoocircle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#six{
+    background-image: url("./images/lardocircle.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#seven{
+    background-image: url("./images/kiilercircle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#eight{
+    background-image: url("./images/pinecircle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#nine{
+    background-image: url("./images/pods.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ten{
+    background-image: url("./images/fallscircle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#eleven{
+    background-image: url("./images/eleven.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#twelve{
+    background-image: url("./images/twelve.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#thirteen{
+    background-image: url("./images/thirteen.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#fourteen{
+    background-image: url("./images/fourteen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#fifteen{
+    background-image: url("./images/fifteen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sixteen{
+    background-image: url("./images/pexels-marta-dzedyshko-2067628.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer{
+    background-color: #212121;
+    height: 200px;
+    width: 100%;
+}
+
+.centerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summaryCont{
+    display: flex;
+    flex-direction: column;
+}
+
+#info{
+    margin-left: 30px;
+}
+
+#directBtn{
+    background-color: #E91C25;
+    width: 200px;
+    height: 35px;
+    border-radius: 30px;
+}
+
+.line{
+    width: 600px;
+    height: 5px;
+    border-bottom: 2px solid black;
+    margin-left: 30px;
+}
+
+#schollsLine{
+    margin-top: 50px;
+}
+
+#pokLine{
+    margin-top: 30px;;
+}
+
+#egg{
+    padding-bottom: 30px;
+}
+
+
+
