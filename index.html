@@ -4,13 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:wght@300&family=Teko&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
     <title>Document</title>
 </head>
 
 <body>
     <div class="main">
+        <div class="weather">
+            <img id="sun" src="./styles/images/sun.png" alt="">
+            <p id="arrowhead">&#8964</p>
+        </div>
+        <div id="modal" class="weatherInfo">
+            <div class="weather1">
+            <p id="city">City Placeholder</p>
+            <img id="weathericon" src="" alt="">
+        </div>
+            <span id="temp">Temp</span>
+            <span id="desc">Description</span>
+            <a href="https://weather.com/weather/today/l/929a0a10df059030a591f46c408a7e6e022d06a80cdea1287444f02b92d9fd07" target="_">See more on Forecast</a>
+        </div>
         <div class="logoCont">
             <img src="./styles/images/logowhite.png" alt="">
         </div>
@@ -78,7 +94,30 @@
         </div>
 
     </div>
+    
+    <div class="ContactCon">
+
+    <section id="contactForm">
+        <div class="contactSec">
+            <p id="headerSec">Sign Up.</p>
+            <input id="email" type="text">
+            <p id="signupText">Sign Up to recieve emails regarding events and more!</p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <div class="footernote">
+        <div class="footerContent">
+        <p id="red">Portland Travel.</p> 
+        <P>Portland, Oregon 97035</P>
+    </div>
+    </div>
+</footer>
 
 </body>
+
+<script src="./app.js"></script>
 
 </html>
